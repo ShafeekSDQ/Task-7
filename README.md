@@ -18,8 +18,6 @@ This directory contains the results of various scanning and banner-grabbing task
 - **Description**: Netcat was utilized to grab the banner information from a specific port on the Metasploitable VM, helping to identify the service running on that port. The output was captured and saved as a screenshot.
 - File: **`nc_metasploitable.png`**
 
-1. Install and set up OpenVAS:
-   ```bash
-   sudo apt install openvas
-   sudo gvm-setup
-   sudo gvm-check-setup
+## Notes
+- Ensure that all tools (OpenVAS, Nikto, Netcat) are properly installed and configured on your Kali Linux or equivalent penetration testing environment.
+- The Metasploitable VM should be used in a controlled, isolated environment to prevent unintended consequences.
